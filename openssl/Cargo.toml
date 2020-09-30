@@ -1,0 +1,11 @@
+[package]
+name = "openssl"
+version = "0.1.0"
+authors = ["daksh14 <somilsharma627@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+octane =  { git = "https://github.com/OctaneWeb/Octane.git", branch = "develop", feautres = ["openSSL"] }
+tokio = "0.2.22"
